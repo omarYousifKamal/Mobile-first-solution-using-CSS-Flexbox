@@ -1,0 +1,198 @@
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  min-height: 98vh;
+  background-color: floralwhite;
+}
+.child1 {
+  border-radius: 10px 0 0 10px;
+  height: 75vh;
+  width: 50vh;
+  background-image: url("https://i.postimg.cc/fR0xjj56/image-product-desktop.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.child2 {
+  border-radius: 0 10px 10px 0;
+  height: 75vh;
+  width: 50vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+.child2 .container {
+  margin-left: 3rem;
+  margin-top: 2rem;
+  margin-right: 7rem;
+}
+.child2 .perfume {
+  font-size: 16px;
+  color: grey;
+  letter-spacing: 5px;
+  font-family: "Montserrat", sans-serif;
+}
+.child2 .margin-top {
+  margin-top: 2rem;
+}
+.child2 .gabrielle {
+  font-size: 3rem;
+  line-height: 0.8;
+  font-weight: bold;
+  font-family: "Fraunces", serif;
+}
+.child2 .floral {
+  font-size: 1.2rem;
+  color: grey;
+  line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
+}
+.child2 .price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.child2 .dollar {
+  font-size: 3rem;
+  color: green;
+  font-family: "Fraunces", serif;
+}
+.child2 .discount {
+  font-size: 1rem;
+  color: grey;
+  margin-left: 25px;
+  text-decoration: line-through;
+}
+.child2 .button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+  width: 19rem;
+  background-color: green;
+  border-radius: 0.5rem;
+}
+.child2 .icon {
+  height: 10px;
+  width: 10px;
+}
+.child2 .text {
+  font-size: 1rem;
+  color: white;
+  font-size: 1.4rem;
+  font-family: "Montserrat", sans-serif;
+}
+.child2 .fa-cart-shopping {
+  color: white;
+  margin-right: 0.4rem;
+  font-size: 1.4rem;
+}
+/*-----------------------------------*/
+@media (max-width: 425px) {
+  body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: fit-content;
+    width: auto;
+    background-color: wheat;
+    font-size: 8px;
+  }
+  .flex {
+    display: flex;
+    align-items: auto;
+    justify-content: auto;
+    flex-direction: column;
+    background-color: wheat;
+    /*   background-color: floralwhite;
+   */
+  }
+  .child1 {
+    width: 20rem;
+    height: 20rem;
+    background-image: url("https://i.postimg.cc/mDdkm8LB/image-product-desktop-Copy-2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px 10px 0 0;
+  }
+  .child2 {
+    border-radius: 0 0 10px 10px;
+    width: 20rem;
+    height: 28rem;
+    background-color: white;
+  }
+  .child2 .container {
+    margin-left: 0.5rem;
+    margin-top: 1.3rem;
+    margin-right: 3rem;
+  }
+  .child2 .perfume {
+    font-size: 1rem;
+    color: grey;
+    letter-spacing: 0.5rem;
+    font-family: "Montserrat", sans-serif;
+  }
+  .child2 .margin-top {
+    margin-top: 1.5rem;
+  }
+  .child2 .gabrielle {
+    font-size: 4em;
+    line-height: 0.8;
+    font-weight: bold;
+    font-family: "Fraunces", serif;
+  }
+  .child2 .floral {
+    font-size: 1.2rem;
+    color: grey;
+    line-height: 1.5;
+    font-family: "Montserrat", sans-serif;
+  }
+  .child2 .price {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .child2 .dollar {
+    font-size: 4.3em;
+    color: green;
+    font-family: "Fraunces", serif;
+  }
+  .child2 .discount {
+    font-size: 1rem;
+    color: grey;
+    margin-left: 25px;
+    text-decoration: line-through;
+  }
+  .child2 .button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 2.7rem;
+    width: 16rem;
+    background-color: green;
+    border-radius: 0.5rem;
+    margin-top: 0.7rem;
+  }
+  .child2 .icon {
+    height: 10px;
+    width: 10px;
+  }
+  .child2 .text {
+    font-size: 1rem;
+    color: white;
+    font-size: 1.4rem;
+    font-family: "Montserrat", sans-serif;
+  }
+  .child2 .fa-cart-shopping {
+    color: white;
+    margin-right: 0.4rem;
+    font-size: 1.4rem;
+  }
+}
